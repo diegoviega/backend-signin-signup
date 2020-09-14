@@ -27,6 +27,10 @@ app.post('/signIn', bodyParser.json(),  userController.signIn)
 app.patch('/signOn', bodyParser.json(), userController.signOn)
 app.get('/findUser/:id', userController.findUser)
 
+app.get('/', (req, res) => {
+    res.send("API feita para o teste SKY")
+})
+
 app.listen(process.env.PORT || 3000, () => {
     console.log(`Server is running on port ${process.env.PORT || 3000}`)
 })
