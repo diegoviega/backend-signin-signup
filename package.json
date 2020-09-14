@@ -1,0 +1,42 @@
+{
+  "name": "backend-signin-signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=dev && nodemon --inspect ./api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoviega/backend-signin-signup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoviega/backend-signin-signup/issues"
+  },
+  "homepage": "https://github.com/diegoviega/backend-signin-signup#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.1.3",
+    "mongoose": "^5.10.5",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
